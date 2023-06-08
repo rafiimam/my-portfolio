@@ -1,0 +1,26 @@
+body{
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+h1{
+    font-size: 80px;
+    font-weight: 700;
+}
+h3{
+    font-size: 60px;
+}
+h5{
+    font-size: 40px;
+}
+#first{
+    color: purple;
+}
+.half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half img{
+    width: 70%;
+    padding-top: 10%;
+}
