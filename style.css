@@ -1,6 +1,7 @@
 body{
     margin: 0;
     font-family: 'PT Sans Narrow', sans-serif;
+    background-color: rgba(94, 18, 97, 0.384);
 }
 h1{
     font-size: 80px;
@@ -21,8 +22,14 @@ h5{
     margin-left: 5%;
     padding-left: 2%;
 }
+.third-half{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
 .half img{
-    width: 50%;
+    width: 60%;
     padding-top: 7%;
     padding-left: 7%;
 }
@@ -53,4 +60,27 @@ p{
     padding: 10px 20px;
     margin-left: 5px;
     color: white;
+}
+.second-half img{
+    width: 500px;
+    padding-top: 7%;
+    padding-left: 7%;
+    float: left;
+    padding-right: 13%;
+}
+.second-half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px;
+    background-position-y: 350px;
+}
+.experience-area{
+    padding-top: 50px;
 }
