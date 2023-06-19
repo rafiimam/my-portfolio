@@ -84,3 +84,19 @@ p{
 .experience-area{
     padding-top: 50px;
 }
+.half-width{
+    width: 35%;
+    float: left;
+    padding: 2% 5%;
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(53, 6, 45),purple);
+    border-image-slice: 1;
+    margin: 2%;
+    
+    box-shadow: 12px 12px 60px rgb(94, 2, 74);
+    height: 60%;
+}
+footer p{
+    text-align: center;
+    padding-top: 15%;
+}
