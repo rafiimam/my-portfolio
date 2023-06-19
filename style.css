@@ -1,15 +1,17 @@
 body{
+    margin: 0;
     font-family: 'PT Sans Narrow', sans-serif;
+    background-color: rgba(94, 18, 97, 0.384);
 }
 h1{
     font-size: 80px;
     font-weight: 700;
 }
 h3{
-    font-size: 60px;
+    font-size: 50px;
 }
 h5{
-    font-size: 40px;
+    font-size: 30px;
 }
 #first{
     color: purple;
@@ -20,7 +22,81 @@ h5{
     margin-left: 5%;
     padding-left: 2%;
 }
+.third-half{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    float: left;
+}
 .half img{
-    width: 70%;
-    padding-top: 10%;
+    width: 60%;
+    padding-top: 7%;
+    padding-left: 7%;
+}
+.bg-img{
+    background-image: url(images/bg4.png);
+    background-repeat: no-repeat;
+    
+}
+section{
+    height: 500px;
+}
+h3{
+    margin-top: -30px;
+    padding-left: 5px;
+}
+h5{
+    margin-top: -45px;
+    padding-left: 5px;
+}
+p{
+    margin-top: -40px;
+    padding-left: 5px;
+    text-align: justify;
+}
+.hire-button{
+    background-image: linear-gradient(rgb(53, 6, 45),purple);
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-left: 5px;
+    color: white;
+}
+.second-half img{
+    width: 500px;
+    padding-top: 7%;
+    padding-left: 7%;
+    float: left;
+    padding-right: 13%;
+}
+.second-half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200px;
+    background-position-y: 350px;
+}
+.experience-area{
+    padding-top: 50px;
+}
+.half-width{
+    width: 35%;
+    float: left;
+    padding: 2% 5%;
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(53, 6, 45),purple);
+    border-image-slice: 1;
+    margin: 2%;
+    
+    box-shadow: 12px 12px 60px rgb(94, 2, 74);
+    height: 60%;
+}
+footer p{
+    text-align: center;
+    padding-top: 15%;
 }
